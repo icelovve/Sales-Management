@@ -58,7 +58,7 @@ const menuItems = [
         text: 'Sales',
         icon: <TrendingUp />,
         path: '/sales',
-        color: '#00BCD4',
+        color: '#7986cb',
     },
     {
         text: 'Orders',
@@ -70,7 +70,7 @@ const menuItems = [
         text: 'Products',
         icon: <Category />,
         path: '/products',
-        color: '#5c6bc0',
+        color: '#7e57c2',
     },
 ];
 
@@ -138,7 +138,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
                     display: 'flex',
                     alignItems: 'center',
                     minHeight: 64,
-                    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+                    background: 'linear-gradient(45deg, #2196F3 30%, #7986cb 90%)',
                     color: 'white',
                 }}
             >

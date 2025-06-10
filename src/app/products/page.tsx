@@ -123,13 +123,13 @@ export default function Page() {
                 <Container maxWidth="xl">
                     <Box sx={{ mb: 6, textAlign: 'center' }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 2 }}>
-                            <Inventory sx={{ fontSize: 40, color: '#5c6bc0', mr: 2 }} />
+                            <Inventory sx={{ fontSize: 40, color: '#7e57c2', mr: 2 }} />
                             <Typography
                                 variant="h3"
                                 component="h1"
                                 sx={{
                                     fontWeight: 700,
-                                    background: 'linear-gradient(135deg, #5c6bc0 0%, #0277bd 100%)',
+                                    background: 'linear-gradient(135deg, #7e57c2 0%, #0277bd 100%)',
                                     backgroundClip: 'text',
                                     WebkitBackgroundClip: 'text',
                                     WebkitTextFillColor: 'transparent',
@@ -178,8 +178,8 @@ export default function Page() {
                                     <Chip
                                         label={"add product"}
                                         sx={{
-                                            backgroundColor: alpha('#5c6bc0', 0.1),
-                                            color: '#5c6bc0',
+                                            backgroundColor: alpha('#7e57c2', 0.1),
+                                            color: '#7e57c2',
                                             fontWeight: 600,
                                             borderRadius: 2,
                                             px: 1,
@@ -244,8 +244,8 @@ export default function Page() {
                                                 <TableCell sx={{ py: 3 }}>
                                                     <Box
                                                         sx={{
-                                                            backgroundColor: alpha('#5c6bc0', 0.1),
-                                                            color: '#5c6bc0',
+                                                            backgroundColor: alpha('#7e57c2', 0.1),
+                                                            color: '#7e57c2',
                                                             px: 2,
                                                             py: 0.5,
                                                             borderRadius: 2,
@@ -302,10 +302,10 @@ export default function Page() {
                                                             onClick={() => openEditPopup(product)}
                                                             size="small"
                                                             sx={{
-                                                                backgroundColor: alpha('#5c6bc0', 0.1),
-                                                                color: '#5c6bc0',
+                                                                backgroundColor: alpha('#7e57c2', 0.1),
+                                                                color: '#7e57c2',
                                                                 '&:hover': {
-                                                                    backgroundColor: alpha('#5c6bc0', 0.2),
+                                                                    backgroundColor: alpha('#7e57c2', 0.2),
                                                                 },
                                                                 borderRadius: 2,
                                                                 width: 36,

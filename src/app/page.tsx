@@ -82,7 +82,7 @@ export default function Home() {
       <Box
          sx={{
             minHeight: '100vh',
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(45deg, #82b1ff 30%, #7986cb 90%)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -103,7 +103,7 @@ export default function Home() {
                <Box
                   sx={{
                      flex: 1,
-                     background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+                     background: 'linear-gradient(45deg, #7986cb 30%, #5c6bc0 90%)',
                      display: { xs: 'none', md: 'flex' },
                      flexDirection: 'column',
                      alignItems: 'center',
@@ -325,10 +325,10 @@ export default function Home() {
                               borderRadius: 2,
                               fontSize: '1.1rem',
                               fontWeight: 'bold',
-                              background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+                              background: 'linear-gradient(45deg, #7986cb 30%, #5c6bc0 90%)',
                               boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .3)',
                               '&:hover': {
-                                 background: 'linear-gradient(45deg, #1976D2 30%, #0288D1 90%)',
+                                 background: 'linear-gradient(45deg, #3949ab 30%, #7986cb 90%)',
                                  boxShadow: '0 6px 10px 4px rgba(33, 203, 243, .3)',
                               },
                               '&:disabled': {

@@ -224,8 +224,8 @@ export default function Page() {
                                                 <TableCell sx={{ py: 3 }}>
                                                     <Box
                                                         sx={{
-                                                            backgroundColor: alpha('#00BCD4', 0.1),
-                                                            color: '#00BCD4',
+                                                            backgroundColor: alpha('#7986cb', 0.1),
+                                                            color: '#7986cb',
                                                             px: 2,
                                                             py: 0.5,
                                                             borderRadius: 2,
@@ -282,10 +282,10 @@ export default function Page() {
                                                             onClick={() => { handleToReceopt(orderItem.id) }}
                                                             size="small"
                                                             sx={{
-                                                                backgroundColor: alpha('#00BCD4', 0.1),
-                                                                color: '#00BCD4',
+                                                                backgroundColor: alpha('#7986cb', 0.1),
+                                                                color: '#7986cb',
                                                                 '&:hover': {
-                                                                    backgroundColor: alpha('#00BCD4', 0.2),
+                                                                    backgroundColor: alpha('#7986cb', 0.2),
                                                                 },
                                                                 borderRadius: 2,
                                                                 width: 36,

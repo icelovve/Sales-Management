@@ -272,14 +272,21 @@ export default function Page() {
                                                             display: 'flex',
                                                             alignItems: 'center',
                                                             justifyContent: 'center',
-                                                            transition: 'all 0.3s ease'
+                                                            transition: 'all 0.3s ease',
+                                                            ml: 3,
+                                                            '&:hover': {
+                                                                color: '#fff'
+                                                            }
                                                         }}
                                                     >
                                                         {React.cloneElement(item.icon, {
                                                             sx: {
                                                                 fontSize: 24,
                                                                 color: item.color,
-                                                                transition: 'color 0.3s ease'
+                                                                transition: 'color 0.3s ease',
+                                                                '&:hover': {
+                                                                    color: '#fff'
+                                                                }
                                                             }
                                                         })}
                                                     </Box>
@@ -346,7 +353,7 @@ export default function Page() {
                             <Box
                                 sx={{
                                     p: 4,
-                                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                                    background: 'linear-gradient(135deg, #667eea 0%, #5c6bc0 100%)',
                                     position: 'relative',
                                     overflow: 'hidden'
                                 }}
