@@ -118,12 +118,12 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
         <Dialog open={isOpen} onClose={onClose} maxWidth="sm" fullWidth>
             <DialogTitle sx={{ textAlign: 'center', py: 3 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 1 }}>
-                    <Inventory sx={{ fontSize: 32, color: '#5c6bc0', mr: 1 }} />
+                    <Inventory sx={{ fontSize: 32, color: '#7e57c2', mr: 1 }} />
                     <Typography
                         variant="h5"
                         sx={{
                             fontWeight: 700,
-                            background: 'linear-gradient(135deg, #5c6bc0 0%, #0277bd 100%)',
+                            background: 'linear-gradient(135deg, #7e57c2 0%, #0277bd 100%)',
                             backgroundClip: 'text',
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent',
@@ -156,10 +156,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     borderRadius: 2,
-                                    '&:hover fieldset': { borderColor: '#5c6bc0' },
-                                    '&.Mui-focused fieldset': { borderColor: '#5c6bc0' },
+                                    '&:hover fieldset': { borderColor: '#7e57c2' },
+                                    '&.Mui-focused fieldset': { borderColor: '#7e57c2' },
                                 },
-                                '& .MuiInputLabel-root.Mui-focused': { color: '#5c6bc0' },
+                                '& .MuiInputLabel-root.Mui-focused': { color: '#7e57c2' },
                             }}
                         />
                         <TextField
@@ -174,10 +174,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     borderRadius: 2,
-                                    '&:hover fieldset': { borderColor: '#5c6bc0' },
-                                    '&.Mui-focused fieldset': { borderColor: '#5c6bc0' },
+                                    '&:hover fieldset': { borderColor: '#7e57c2' },
+                                    '&.Mui-focused fieldset': { borderColor: '#7e57c2' },
                                 },
-                                '& .MuiInputLabel-root.Mui-focused': { color: '#5c6bc0' },
+                                '& .MuiInputLabel-root.Mui-focused': { color: '#7e57c2' },
                             }}
                         />
                         <TextField
@@ -193,10 +193,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     borderRadius: 2,
-                                    '&:hover fieldset': { borderColor: '#5c6bc0' },
-                                    '&.Mui-focused fieldset': { borderColor: '#5c6bc0' },
+                                    '&:hover fieldset': { borderColor: '#7e57c2' },
+                                    '&.Mui-focused fieldset': { borderColor: '#7e57c2' },
                                 },
-                                '& .MuiInputLabel-root.Mui-focused': { color: '#5c6bc0' },
+                                '& .MuiInputLabel-root.Mui-focused': { color: '#7e57c2' },
                             }}
                         />
                         <TextField
@@ -212,10 +212,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     borderRadius: 2,
-                                    '&:hover fieldset': { borderColor: '#5c6bc0' },
-                                    '&.Mui-focused fieldset': { borderColor: '#5c6bc0' },
+                                    '&:hover fieldset': { borderColor: '#7e57c2' },
+                                    '&.Mui-focused fieldset': { borderColor: '#7e57c2' },
                                 },
-                                '& .MuiInputLabel-root.Mui-focused': { color: '#5c6bc0' },
+                                '& .MuiInputLabel-root.Mui-focused': { color: '#7e57c2' },
                             }}
                         />
                     </Box>
@@ -226,10 +226,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                     onClick={onClose}
                     variant="outlined"
                     sx={{
-                        borderColor: '#5c6bc0',
-                        color: '#5c6bc0',
+                        borderColor: '#7e57c2',
+                        color: '#7e57c2',
                         borderRadius: 2,
-                        '&:hover': { backgroundColor: alpha('#5c6bc0', 0.1), borderColor: '#1976D2' },
+                        '&:hover': { backgroundColor: alpha('#7e57c2', 0.1), borderColor: '#5c6bc0' },
                     }}
                 >
                     Cancel
@@ -238,10 +238,10 @@ const EditProduct: React.FC<EditProductProps> = ({ isOpen, onClose, onProductEdi
                     onClick={handleSubmit}
                     variant="contained"
                     sx={{
-                        backgroundColor: '#5c6bc0',
+                        backgroundColor: '#7e57c2',
                         color: 'white',
                         borderRadius: 2,
-                        '&:hover': { backgroundColor: '#1976D2' },
+                        '&:hover': { backgroundColor: '#5c6bc0' },
                     }}
                 >
                     Save Changes

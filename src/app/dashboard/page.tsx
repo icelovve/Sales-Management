@@ -211,7 +211,9 @@ export default function Page() {
                                                 borderColor: item.color,
                                                 '& .icon-container': {
                                                     transform: 'scale(1.1)',
-                                                    background: item.color
+                                                    background: item.color,
+                                                    color: '#fff'
+
                                                 },
                                                 '& .trend-indicator': {
                                                     opacity: 1
